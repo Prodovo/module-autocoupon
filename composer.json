@@ -1,0 +1,25 @@
+{
+    "name": "prodovo/module-autocoupon",
+    "description": "Auto Coupon|Automatically apply coupons to the basket.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.5",
+    "authors": [
+        {
+            "name": "Prodovo",
+            "email": "support@prodovo.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "prodovo/module-base": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prodovo\\AutoCoupon\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
